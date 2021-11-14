@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoopAppBootstrap", "CoopAppBootstrap\CoopAppBootstrap.csproj", "{A6082C90-45F3-482E-A823-C519A7408772}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoopBootstrap", "CoopAppBootstrap\CoopBootstrap.csproj", "{A6082C90-45F3-482E-A823-C519A7408772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
