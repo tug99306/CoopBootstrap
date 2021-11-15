@@ -29,7 +29,7 @@
         </div>
         <div class="clearfix">
             
-            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me?</label><br />
+            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label><br />
           
               </div> 
     </form>
