@@ -3,7 +3,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="login-form">
+         <div class="login-form shadow">
     <form  method="post" runat="server">
+        
         <center><img src="pics/temple_logo.png" /></center>
         <small>Login with your Accessnet and Password</small> <br />
        <h7> <b>Username:</b></h7>
@@ -23,5 +25,6 @@
           
               </div> 
     </form>
-   </div>
+             </div>
+         </div>
 </asp:Content>
