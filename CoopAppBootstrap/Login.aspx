@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="login-form">
-    <form action="/examples/actions/confirmation.php" method="post" runat="server">
+    <form  method="post" runat="server">
         <center><img src="pics/temple_logo.png" /></center>
         <small>Login with your Accessnet and Password</small> <br />
        <h7> <b>Username:</b></h7>
