@@ -1,19 +1,45 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="CoopAppBootstrap.Site1" %>
 
 <!DOCTYPE html>
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet" />
 <html>
 <head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+
+        <div class="login-form">
+    <form action="/examples/actions/confirmation.php" method="post" runat="server">
+        <center><img src="pics/temple_logo.png" /></center>
+        <small>Login with your Accessnet Username and Password</small> <br />
+       <h7> <b>Username:</b></h7>
+        <div class="form-group">
+            <asp:TextBox ID="txtUsername" runat="server" required="required" CssClass="form-control">Username </asp:TextBox>
+        </div>
+        <h7> <b>Password:</b></h7>
+        <div class="form-group">
+            <asp:TextBox ID="txtPassword" runat="server" required="required" CssClass="form-control">Password </asp:TextBox>
+        </div>
+        <div class="form-group">
+            <asp:Button ID="btnLogin" runat="server" Text="Log In" class="btn btn-primary btn-block"/>
+        </div>
+        <div class="clearfix">
+            
+            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label><br />
+          
+              </div> 
+    </form>
+   
+
+
+
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-    </form>
+
 </body>
 </html>
