@@ -15,7 +15,7 @@
         <div class="login-form">
     <form action="/examples/actions/confirmation.php" method="post" runat="server">
         <center><img src="pics/temple_logo.png" /></center>
-        <small>Login with your Accessnet Username and Password</small> <br />
+        <small>Login with your Accessnet and Password</small> <br />
        <h7> <b>Username:</b></h7>
         <div class="form-group">
             <asp:TextBox ID="txtUsername" runat="server" required="required" CssClass="form-control">Username </asp:TextBox>
