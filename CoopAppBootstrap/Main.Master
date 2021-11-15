@@ -25,11 +25,11 @@
             <asp:TextBox ID="txtPassword" runat="server" required="required" CssClass="form-control">Password </asp:TextBox>
         </div>
         <div class="form-group">
-            <asp:Button ID="btnLogin" runat="server" Text="Log In" class="btn btn-primary btn-block"/>
+            <asp:Button ID="btnLogin" runat="server" Text="Log In" class="btn btn-primary btn-block" OnClick="btnLogin_Click"/>
         </div>
         <div class="clearfix">
             
-            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me?</label><br />
+            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label><br />
           
               </div> 
     </form>
