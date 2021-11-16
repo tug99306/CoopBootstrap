@@ -1,2 +1,55 @@
 ﻿body {
 }
+
+.dash-container {
+    background-color: antiquewhite;
+    width: 85%;
+    margin: 4rem auto;
+    padding-bottom: 35px;
+}
+
+#logo {
+}
+
+#tulogo {
+    width: 325px;
+}
+
+.dash {
+    background-color: white;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', 'Arial', 'sans';
+    margin-top: 12px;
+    padding-bottom: 20px;
+}
+
+#title1 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+#info {
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 12px;
+    text-align:left;
+    margin-left:30px;
+}
+
+.table-primary {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.table > thead > tr > th {
+    background-color: #9d2235;
+    color: white;
+}
+
+tr {
+    font-size: 12px;
+}

@@ -8,6 +8,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/studentdashboard.css" rel="stylesheet" />
+<link href="css/facultydashboard.css" rel="stylesheet" />
+
 <html>
 <head runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1">
