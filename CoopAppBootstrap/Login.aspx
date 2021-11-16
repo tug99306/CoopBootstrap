@@ -8,21 +8,21 @@
     <form  method="post" runat="server">
         
         <center><img src="pics/temple_logo.png" /></center>
-        <small>Login with your Accessnet and Password</small> <br />
-       <h7> <b>Username:</b></h7>
+        <h5>Login with your Accessnet and Password</h5> <br />
+       <h5> <b>Username:</b></h5>
         <div class="form-group">
             <asp:TextBox ID="txtUsername" runat="server" required="required" CssClass="form-control" placeholder="Username"> </asp:TextBox>
         </div>
-        <h7> <b>Password:</b></h7>
+        <h5> <b>Password:</b></h5>
         <div class="form-group">
-            <asp:TextBox ID="txtPassword" runat="server" required="required" CssClass="form-control" placeholder="Password"> </asp:TextBox>
+            <asp:TextBox ID="txtPassword" runat="server" required="required" CssClass="form-control" placeholder="Password" TextMode="Password"> </asp:TextBox>
         </div>
         <div class="form-group">
             <asp:Button ID="btnLogin" runat="server" Text="Log In" class="btn btn-danger btn-block" OnClick="btnLogin_Click"/>
         </div>
         <div class="clearfix">
             
-            <label class="pull-left checkbox-inline"><input type="checkbox"> <small>Remember me?</small></label><br />
+            <label class="pull-left checkbox-inline"><input type="checkbox"> <h5>Remember me?</h5></label><br />
           
               </div> 
     </form>
