@@ -16,7 +16,14 @@ namespace CoopAppBootstrap
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            Response.Redirect("StudentDashboard.aspx");
+            if(txtUsername.Text.StartsWith("T") | txtUsername.Text.StartsWith("t") && txtUsername.Text.Length < 9)
+            {
+                Response.Redirect("StudentDashboard.aspx");
+            }
+            else
+            {
+                Response.Redirect("FacultyDashboard.aspx");
+            }
         }
     }
 }
