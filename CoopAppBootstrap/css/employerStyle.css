@@ -1,0 +1,12 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+
+.employer-form {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}

@@ -67,8 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\studentdashboard.css" />
-    <Content Include="css\style.css" />
+	  <Content Include="css\employerStyle.css" />
+	  <Content Include="css\faculty_review_style.css" />
+	  <Content Include="css\studentdashboard.css" />
+
+	  <Content Include="css\style.css" />
+    <Content Include="Employer.aspx" />
+    <Content Include="FacultyReview.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="pics\CST_TULogo.png" />
     <Content Include="pics\login_background.jfif" />
@@ -77,6 +82,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employer.aspx.cs">
+      <DependentUpon>Employer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer.aspx.designer.cs">
+      <DependentUpon>Employer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyReview.aspx.cs">
+      <DependentUpon>FacultyReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyReview.aspx.designer.cs">
+      <DependentUpon>FacultyReview.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

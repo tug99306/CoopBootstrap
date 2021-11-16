@@ -2,8 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <div class="login-form">
-    <form action="/examples/actions/confirmation.php" method="post" runat="server">
+         <div class="login-form shadow">
+    <form  method="post" runat="server">
+        
         <center><img src="pics/temple_logo.png" /></center>
         <small>Login with your Accessnet and Password</small> <br />
        <h7> <b>Username:</b></h7>
@@ -23,5 +26,6 @@
           
               </div> 
     </form>
-   </div>
+             </div>
+         </div>
 </asp:Content>
