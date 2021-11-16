@@ -11,10 +11,9 @@
                 <img src="pics/CST_TULogo.png" />
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li class="active bg-warning"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
+                <li class="active bg-warning"><a href="#">Faculty Dashboard</a></li>
+                <li><a href="#">Faculty Revision</a></li>
+                <li><a href="Login.aspx">Sign out</a></li>
             </ul>
         </div>
     </nav>
@@ -71,8 +70,8 @@
             </center>
 
             <div style="float:right;">
-            <asp:Button ID="btnDeny" runat="server" Text="Deny"  class="btn btn-danger"/>&nbsp;&nbsp;
-            <asp:Button ID="btnAccept" runat="server" Text="Accept" class="btn alert-info" />
+            <asp:Button ID="btnDeny" runat="server" Text="Deny"  class="btn btn-danger" OnClick="btnDeny_Click"/>&nbsp;&nbsp;
+            <asp:Button ID="btnAccept" runat="server" Text="Accept" class="btn alert-info" OnClick="btnAccept_Click" />
                 </div>
         </div>
         <br />
