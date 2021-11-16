@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/employerStyle.css" rel="stylesheet" />
 
+    <div class="m-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="/pics/temple_logo.png" height="40" alt="Temple University">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link">Dashboard</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <p class="nav-item nav-link"style="margin-left:10px;color:black;">John Doe</p>
+                    <a href="#" class="nav-item nav-link"style="margin-left:10px">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
     
     <form runat="server">
         <div class="employer-form" style="border-block-color: grey;">
