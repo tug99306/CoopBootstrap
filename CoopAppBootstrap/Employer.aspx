@@ -4,19 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/employerStyle.css" rel="stylesheet" />
-    <nav class="navbar navbar-default" style="opacity: 0.8;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <img src="pics/CST_TULogo.png" />
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active bg-warning"><a href="#">Faculty Dashboard</a></li>
-                <li><a href="FacultyReview.aspx">Faculty Revision</a></li>
-                <li><a href="Login.aspx">Sign out</a></li>
-                <li><a href="Employer.aspx">Employer form</a></li>
-            </ul>
-        </div>
-        </nav>
+
     
     <form runat="server">
         <div class="employer-form" style="border-block-color: grey;">
