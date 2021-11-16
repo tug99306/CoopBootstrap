@@ -16,12 +16,12 @@ namespace CoopAppBootstrap
 
         protected void btnDeny_Click(object sender, EventArgs e)
         {
-
+            lblMessage.Text = "Student will be notified of their denied application.";
         }
 
         protected void btnAccept_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("FacultyDashboard.aspx");
         }
     }
 }

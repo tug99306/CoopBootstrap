@@ -72,6 +72,8 @@
             <div style="float:right;">
             <asp:Button ID="btnDeny" runat="server" Text="Deny"  class="btn btn-danger" OnClick="btnDeny_Click"/>&nbsp;&nbsp;
             <asp:Button ID="btnAccept" runat="server" Text="Accept" class="btn alert-info" OnClick="btnAccept_Click" />
+                <br />
+                <asp:Label ID="lblMessage" runat="server"></asp:Label>
                 </div>
         </div>
         <br />
