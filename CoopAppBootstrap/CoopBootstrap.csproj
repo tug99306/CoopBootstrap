@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="css\faculty_review_style.css" />
     <Content Include="css\style.css" />
+    <Content Include="Employer.aspx" />
     <Content Include="FacultyReview.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="pics\CST_TULogo.png" />
@@ -78,6 +79,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employer.aspx.cs">
+      <DependentUpon>Employer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer.aspx.designer.cs">
+      <DependentUpon>Employer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FacultyReview.aspx.cs">
       <DependentUpon>FacultyReview.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
