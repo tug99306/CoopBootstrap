@@ -11,7 +11,7 @@
                 <img src="pics/CST_TULogo.png" />
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li class="active bg-warning"><a href="#">Faculty Dashboard</a></li>
+                <li class="active bg-warning"><a href="FacultyDashboard.aspx">Faculty Dashboard</a></li>
                 <li><a href="#">Faculty Revision</a></li>
                 <li><a href="Login.aspx">Sign out</a></li>
             </ul>
