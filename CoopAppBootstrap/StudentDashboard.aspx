@@ -17,7 +17,7 @@
             <hr style="width:80%;margin:auto;margin-top:20px;">
             <p id="title1">Application Status</p>
 
-             <table class="table table-bordered table-hover rounded"style="width:75%;margin:auto;">
+             <table class="table table-bordered table-hover rounded"style="width:45%;margin:auto;">
         <thead class="table-primary">
             <tr>
                 <th scope="col">Application (Company Name)</th>
@@ -46,8 +46,8 @@
     </table>
             <hr style="width:75%;margin:auto;margin-top:20px;">
             <br>
-            <button type="button" class="btn btn-primary btn-sm" style="background-color:#9d2235">Start Application</button>
-            <button type="button" class="btn btn-primary btn-sm" style="background-color:#9d2235">Review Application</button>
+            <button type="button" class="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px">Start Application</button>
+            <button type="button" class="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px">Review Application</button>
         </div>
         </div>
 </asp:Content>
