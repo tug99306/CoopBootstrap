@@ -8,11 +8,14 @@
 #mainForm {
     text-align: center;
     padding: 1%;
-    background-color: #c4c4c4;
+    background-color: white;
+    margin: auto;
+    width: 95%;
 }
 
 #submitButton {
-    padding-left: 35%;
+    padding-left: 40%;
+    float: none;
 }
 
 #boarder {
@@ -20,21 +23,21 @@
 }
 
 #descriptionTitle {
+    padding-right: 20%;
     font-size: 16px;
-    padding-left: 15%;
 }
 
 #leftSide {
     float: left;
     text-align: right;
-    padding-left: 28%;
+    padding-left: 20%;
     font-size: 16px;
 }
 
 #rightSide {
     float: right;
     text-align: right;
-    padding-right: 28%;
+    padding-right: 20%;
     font-size: 16px;
 }
 
@@ -42,4 +45,92 @@
     text-align: left;
     font-size: 12px;
     white-space: pre;
+}
+
+
+
+@media (max-width: 1700px) {
+    #leftSide {
+        float: left;
+        text-align: right;
+        padding-left: 17%;
+    }
+
+    #rightSide {
+        float: right;
+        text-align: right;
+        padding-right: 17%;
+    }
+
+    #submitButton {
+        padding-left: 50%;
+        float: none;
+    }
+}
+
+@media (max-width: 1500px) {
+    #leftSide {
+        float: left;
+        text-align: right;
+        padding-left: 14%;
+    }
+
+    #rightSide {
+        float: right;
+        text-align: right;
+        padding-right: 14%;
+    }
+
+    #submitButton {
+        padding-left: 60%;
+        float: none;
+    }
+}
+
+@media (max-width: 1350px) {
+    #leftSide {
+        float: left;
+        text-align: right;
+        padding-left: 10%;
+    }
+
+    #rightSide {
+        float: right;
+        text-align: right;
+        padding-right: 10%;
+    }
+
+    #descriptionTitle {
+        padding-right: 50%;
+        font-size: 16px;
+    }
+
+    #submitButton {
+        padding-left: 65%;
+        float: none;
+    }
+}
+
+@media (max-width: 1210px) {
+    #leftSide {
+        float: left;
+        text-align: right;
+        padding-left: 5%;
+    }
+
+    #rightSide {
+        float: right;
+        text-align: right;
+        padding-right: 5%;
+    }
+
+    #descriptionTitle {
+        padding-right: 70%;
+        font-size: 16px;
+    }
+
+    #submitButton {
+        padding-left: 70%;
+        float: none;
+    }
 }
