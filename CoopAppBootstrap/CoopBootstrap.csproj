@@ -67,10 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPage.aspx" />
     <Content Include="css\employerStyle.css" />
     <Content Include="css\facultydashboard.css" />
     <Content Include="css\faculty_review_style.css" />
     <Content Include="css\studentdashboard.css" />
+    <Content Include="css\studentStyle.css" />
     <Content Include="css\style.css" />
     <Content Include="Employer.aspx" />
     <Content Include="FacultyDashboard.aspx" />
@@ -80,9 +82,17 @@
     <Content Include="pics\login_background.jfif" />
     <Content Include="pics\temple_logo.png" />
     <Content Include="StudentDashboard.aspx" />
+    <Content Include="studentForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Employer.aspx.cs">
       <DependentUpon>Employer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -125,6 +135,13 @@
     </Compile>
     <Compile Include="StudentDashboard.aspx.designer.cs">
       <DependentUpon>StudentDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentForm.aspx.cs">
+      <DependentUpon>studentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="studentForm.aspx.designer.cs">
+      <DependentUpon>studentForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

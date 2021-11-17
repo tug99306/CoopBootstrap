@@ -1,0 +1,45 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* id's */
+#mainForm {
+    text-align: center;
+    padding: 1%;
+    background-color: #c4c4c4;
+}
+
+#submitButton {
+    padding-left: 35%;
+}
+
+#boarder {
+    padding: 2%;
+}
+
+#descriptionTitle {
+    font-size: 16px;
+    padding-left: 15%;
+}
+
+#leftSide {
+    float: left;
+    text-align: right;
+    padding-left: 28%;
+    font-size: 16px;
+}
+
+#rightSide {
+    float: right;
+    text-align: right;
+    padding-right: 28%;
+    font-size: 16px;
+}
+
+.userName {
+    text-align: left;
+    font-size: 12px;
+    white-space: pre;
+}
