@@ -32,9 +32,8 @@
                 <img id="tulogo" src="pics/CST_TULogo.png">
             </div>
             <div class="dash">
-                <p style="margin: 1rem auto; font-weight: 600; font-size: 18px; padding: 12px; margin-bottom: 0px">
-                    Faculty Dashboard
-                </p>
+                <h1 class="fdashtitle">
+                    Faculty Dashboard</h1>
                 <hr style="margin-top: 0px;">
                 <p id="title1" style="text-align: left; margin-left: 15px">Search Applications</p>
                 <p id="info">

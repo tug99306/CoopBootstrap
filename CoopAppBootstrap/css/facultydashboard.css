@@ -15,6 +15,19 @@
     width: 325px;
 }
 
+.fdashtitle {
+    text-align: center;
+    color: white;
+    background-color: #9d2235;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 1rem auto;
+    padding: 12px;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
 .dash {
     background-color: white;
     border-radius: 10px;
