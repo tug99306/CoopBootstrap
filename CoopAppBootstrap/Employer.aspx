@@ -28,6 +28,9 @@
     
     <form runat="server">
         <div class="employer-div" style="border-block-color: grey;">
+            <div id="logo">
+                <img id="tulogo" src="pics/CST_TULogo.png">
+            </div><br><br>
 
             <b style="font-size:13px">Student Term:</b>
             <asp:Label ID="lblStudentTerm" runat="server" text="Spring 2022" style="font-size:13px"></asp:Label><br />

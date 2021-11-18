@@ -34,13 +34,6 @@
     font-size: 16px;
 }
 
-#leftSide1 {
-    float: left;
-    text-align: right;
-    padding-left: 20%;
-    font-size: 16px;
-}
-
 #rightSide {
     float: right;
     text-align: right;
@@ -48,12 +41,6 @@
     font-size: 16px;
 }
 
-#rightSide1 {
-    float: right;
-    text-align: right;
-    padding-right: 20%;
-    font-size: 16px;
-}
 
 .userName {
     text-align: left;
