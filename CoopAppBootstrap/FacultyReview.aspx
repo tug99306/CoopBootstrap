@@ -55,24 +55,24 @@
                 </h1>
                 <br />
                 <div class="form-group">
-                    <h3><b>First Name:</b> <u>John</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> <u>Doe</u></h3>
+                    <h3><b>First Name:</b> John &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> Doe</h3>
                 </div>
                 <br />
 
                 <div class="form-group">
-                    <h3><b>TUID:</b> <u>915XXXXXX</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>TUID:</b> 915XXXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3><b>Major:</b> <u>IS&T</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Major:</b> IS&T &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3><b>Email:</b> <u>Tuxxxxxx@temple.edu</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Email:</b> Tuxxxxxx@temple.edu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
 
                 <div class="form-group">
-                    <h3><b>Term:</b> <u>Spring 20XX</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Term:</b> Spring 20XX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
 
@@ -85,29 +85,29 @@
                 </h1>
                 <br />
                 <div class="form-group">
-                    <h3><b>First Name:</b> <u>Rick</u> &nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> <u>James</u></h3>
+                    <h3><b>First Name:</b> Rick &nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> James</h3>
                 </div>
                 <br />
 
                 <div class="form-group">
-                    <h3><b>Email:</b> <u>Rickjames@yahoo.com</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Email:</b> Rickjames@yahoo.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3><b>Phone Number:</b> <u>(215)-204-1111</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Phone Number:</b> (215)-204-1111 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3><b>Company Name:</b> <u>Comcast</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Company Name:</b> Comcast &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
 
                 <div class="form-group">
-                    <h3><b>Weekly Hours:</b> <u>25 Hours</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Weekly Hours:</b> 25 Hours &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
 
                 <div class="form-group">
-                    <h3><b>Job Description Upload:</b> <u>Here</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Job Description Upload:</b> Here &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 
                 </div>
                 <br />
