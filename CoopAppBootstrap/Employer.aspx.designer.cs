@@ -24,31 +24,31 @@ namespace CoopAppBootstrap
         protected global::System.Web.UI.WebControls.Label lblStudentTerm;
 
         /// <summary>
-        /// txtStudentFirstName control.
+        /// lblStudentFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtStudentFirstName;
+        protected global::System.Web.UI.WebControls.Label lblStudentFirstName;
 
         /// <summary>
-        /// txtStudentLastName control.
+        /// lblStudentLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtStudentLastName;
+        protected global::System.Web.UI.WebControls.Label lblStudentLastName;
 
         /// <summary>
-        /// txtStudentEmail control.
+        /// lblStudentEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtStudentEmail;
+        protected global::System.Web.UI.WebControls.Label lblStudentEmail;
 
         /// <summary>
         /// txtEmployerFName control.

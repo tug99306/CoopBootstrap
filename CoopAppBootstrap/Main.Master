@@ -9,7 +9,8 @@
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/studentdashboard.css" rel="stylesheet" />
 <link href="css/facultydashboard.css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="css/studentStyle.css" />
+<link href="css/employerStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/studentStyle.css" />
 
 <html>
 <head runat="server">
