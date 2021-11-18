@@ -28,7 +28,7 @@
         <div id="logo">
             <img id="tulogo" src="pics/CST_TULogo.png">
         </div>
-        <div class="dash">
+        <div class="dash" style="padding-bottom:340px">
             <p style="margin: 1rem auto; font-weight: 600; font-size: 18px; padding: 12px; margin-bottom: 0px">
                 Admin Page
             </p>
@@ -41,18 +41,15 @@
             <table class="table table-bordered table-hover rounded" style="width: 95%; margin: auto;">
                 <thead class="table-primary">
                     <tr>
-                        <th scope="col">Select</th>
-                        <th scope="col">TUID</th>
-                        <th scope="col">First Name</th>
-                        <th scope="col">Last Name</th>
-                        <th scope="col">Advisor Type</th>
-                        <th scope="col">Delete</th>
+                        <th scope="col">TUID <i class="fa fa-fw fa-sort"></i></th>
+                        <th scope="col">First Name <i class="fa fa-fw fa-sort"></i></th>
+                        <th scope="col">Last Name <i class="fa fa-fw fa-sort"></i></th>
+                        <th scope="col">Advisor Type <i class="fa fa-fw fa-sort"></i></th>
+                        <th scope="col">Delete </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></th>
                         <td>91234567</td>
                         <td>Lawrence</td>
                         <td>Mahoney-Jones</td>
@@ -62,8 +59,6 @@
 
                     </tr>
                     <tr>
-                                                <th scope="row">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></th>
                         <td>91567893</td>
                         <td>Sally</td>
                         <td>Kyvernitis</td>
@@ -72,8 +67,6 @@
                         <span aria-hidden="true">&times;</span></td>
                     </tr>
                     <tr>
-                                                <th scope="row">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></th>
                         <td>91334343</td>
                         <td>Dominic</td>
                         <td>Letarte</td>
