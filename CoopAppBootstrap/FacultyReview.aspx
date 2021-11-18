@@ -135,7 +135,7 @@
                     <center>
                         <asp:Button ID="btnDeny" Text="Deny" runat="server" CssClass="btn-danger" Style="float: inherit;" Font-Size="15pt" Width="18%" OnClick="btnDeny_Click2" />&nbsp;&nbsp;&nbsp;
 
-            <asp:Button ID="btnAccept" Text="Accept" runat="server" CssClass="btn-primary" Style="float: inherit;" Font-Size="15pt" Width="18%" OnClick="btnAccept_Click1" />
+            <asp:Button ID="btnApprove" Text="Approve" runat="server" CssClass="btn-primary" Style="float: inherit;" Font-Size="15pt" Width="18%" OnClick="btnAccept_Click1" />
                     </center>
                 </div>
             </div>
