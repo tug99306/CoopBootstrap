@@ -2,7 +2,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/studentStyle.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title></title>
+</head>
+<body>
     <link href="css/faculty_review_style.css" rel="stylesheet" />
     <nav class="navbar navbar-default" style="opacity: 0.8;">
         <div class="container-fluid">
@@ -74,6 +82,6 @@
         </form>
     </div>
     </div>
-    </div>
-
-</asp:Content>     
+</body>
+</html>
+</asp:Content>

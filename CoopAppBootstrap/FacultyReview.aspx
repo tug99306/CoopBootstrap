@@ -40,7 +40,7 @@
 
 
             <div class="dash">
-        <h1>
+        <h1 style="font-weight:600;">
             <center>Faculty Application Review</center>
         </h1>
 
@@ -50,29 +50,29 @@
 
 
             <div class="leftcontact">
-                <h1>
+                <h1 style="font-weight:600;">
                     <center>Student Information</center>
                 </h1>
                 <br />
                 <div class="form-group">
-                    <h3>First Name: <u>John</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name: <u>Doe</u></h3>
+                    <h3><b>First Name:</b> <u>John</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name: <u>Doe</u></h3>
                 </div>
                 <br />
 
                 <div class="form-group">
-                    <h3>TUID: <u>915XXXXXX</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>TUID:</b> <u>915XXXXXX</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3>Major: <u>IS&T</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Major:</b> <u>IS&T</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3>Email: <u>Tuxxxxxx@temple.edu</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Email:</b> <u>Tuxxxxxx@temple.edu</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
 
                 <div class="form-group">
-                    <h3>Term: <u>Spring 20XX</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Term:</b> <u>Spring 20XX</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
 
@@ -80,34 +80,34 @@
             </div>
 
             <div class="rightcontact">
-                <h1>
+                <h1 style="font-weight:600;">
                     <center>Employer Information</center>
                 </h1>
                 <br />
                 <div class="form-group">
-                    <h3>First Name: <u>Rick</u> &nbsp;&nbsp;&nbsp;&nbsp; Last Name: <u>James</u></h3>
+                    <h3><b>First Name:</b> <u>Rick</u> &nbsp;&nbsp;&nbsp;&nbsp; Last Name: <u>James</u></h3>
                 </div>
                 <br />
 
                 <div class="form-group">
-                    <h3>Email: <u>Rickjames@yahoo.com</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Email:</b> <u>Rickjames@yahoo.com</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3>Phone Number: <u>(215)-204-1111</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Phone Number:</b> <u>(215)-204-1111</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
                 <div class="form-group">
-                    <h3>Company Name: <u>Comcast</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Company Name:</b> <u>Comcast</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
 
                 <div class="form-group">
-                    <h3>Weekly Hours: <u>25 Hours</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Weekly Hours:</b> <u>25 Hours</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 </div>
                 <br />
 
                 <div class="form-group">
-                    <h3>Job Description Upload: <u>Here</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    <h3><b>Job Description Upload:</b> <u>Here</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 
                 </div>
                 <br />
@@ -117,7 +117,7 @@
 
 
             <div class="form-group" style="align-content: center;">
-                <h3>Optional Comments: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                <h3><b>Optional Comments:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                 <asp:TextBox ID="txtComments" runat="server" TextMode="MultiLine"></asp:TextBox>
 
             </div>
