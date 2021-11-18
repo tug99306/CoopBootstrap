@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Employer.aspx.cs" Inherits="CoopAppBootstrap.Employer" %>
+﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Employer.aspx.cs" Inherits="CoopAppBootstrap.Employer" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -25,13 +25,15 @@
 </div>
     
     <form runat="server">
-        <div class="employer-div" style="border-block-color: grey;">
-            <div class="dash">
+        <div class="dash-container">
             <div id="logo">
                 <img id="tulogo" src="pics/CST_TULogo.png">
-            </div><br><br>
+            </div>
+        <div class="employer-div" style="border-block-color: grey;">
+            <div class="dash">
+            <br><br>
 
-            <b style="font-size:13px">Student Term:</b>
+            <b style="font-size:13px">Academic Term:</b>
             <asp:Label ID="lblStudentTerm" runat="server" text="Spring 2022" style="font-size:13px"></asp:Label><br />
             <hr style="border: 1px outset black;">
             <br />
@@ -98,5 +100,7 @@
         <br />
         <br />
         <br />
-    </form>
+            </div>
+    </form>            
+
 </asp:Content>
