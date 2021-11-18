@@ -12,17 +12,30 @@
 </head>
 <body>
     <link href="css/faculty_review_style.css" rel="stylesheet" />
-    <nav class="navbar navbar-default" style="opacity: 0.8;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <img src="pics/CST_TULogo.png" />
+     <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="opacity: 0.8;">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="/pics/temple_logo.png" height="40" alt="Temple University">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="StudentDashboard.aspx" class="nav-item nav-link">Dashboard</a>
+                        
+
+                    </div>
+                    <div class="navbar-nav ms-auto">
+
+                        <p class="nav-item nav-link" style="margin-left: 10px; color: black;">John Doe</p>
+                        <a href="Login.aspx" class="nav-item nav-link" style="margin-left: 10px">Log Out</a>
+                    </div>
+                </div>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active bg-warning"><a href="StudentDashboard.aspx">Student Dashboard</a></li>
-                <li><a href="Login.aspx">Sign out</a></li>
-            </ul>
-        </div>
-    </nav> 
+        </nav>
+    </div> 
     <form runat="server">
     <div id="boarder">
 
