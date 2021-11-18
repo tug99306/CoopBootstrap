@@ -4,8 +4,8 @@
 .dash-container {
     background-color: whitesmoke;
     width: 85%;
-    margin: 4rem auto;
     padding-bottom: 35px;
+    height: 1268px;
 }
 
 #logo {
@@ -19,11 +19,14 @@
     background-color: white;
     border-radius: 10px;
     width: 95%;
-    margin: auto;
     text-align: center;
     font-family: 'Roboto', 'Arial', 'sans';
     margin-top: 12px;
     padding-bottom: 20px;
+    height: 274px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 
 #title1 {
