@@ -55,7 +55,7 @@
                 </h1>
                 <br />
                 <div class="form-group">
-                    <h3><b>First Name:</b> <u>John</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name: <u>Doe</u></h3>
+                    <h3><b>First Name:</b> <u>John</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> <u>Doe</u></h3>
                 </div>
                 <br />
 
@@ -85,7 +85,7 @@
                 </h1>
                 <br />
                 <div class="form-group">
-                    <h3><b>First Name:</b> <u>Rick</u> &nbsp;&nbsp;&nbsp;&nbsp; Last Name: <u>James</u></h3>
+                    <h3><b>First Name:</b> <u>Rick</u> &nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> <u>James</u></h3>
                 </div>
                 <br />
 
