@@ -28,7 +28,7 @@
         <div id="logo">
             <img id="tulogo" src="pics/CST_TULogo.png">
         </div>
-        <div class="dash" style="padding-bottom:340px">
+        <div class="dash">
             <p style="margin: 1rem auto; font-weight: 600; font-size: 18px; padding: 12px; margin-bottom: 0px">
                 Admin Page
             </p>

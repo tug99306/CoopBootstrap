@@ -41,9 +41,11 @@
              <table class="table table-bordered table-hover rounded"style="width:45%;margin:auto;">
         <thead class="table-primary">
             <tr>
-                <th scope="col">Application (Company Name)</th>
-                <th scope="col">Term</th>
-                <th scope="col">Status</th>
+                <th scope="col">Application (Company Name) <i class="fa fa-fw fa-sort"></i></th>
+                <th scope="col">Term <i class="fa fa-fw fa-sort"></i></th>
+                <th scope="col">Status <i class="fa fa-fw fa-sort"></i></th>
+                <th scope="col">Review <i class="fas fa-file-invoice"></i></th>
+
             </tr>
         </thead>
         <tbody>
@@ -51,24 +53,28 @@
                 <td>Comcast</td>
                 <td>Spring 2018</td>
                 <td>Denied</td>
+                <td><i class="fas fa-file-invoice"></i></td>
 
             </tr>
             <tr>
                 <td>Comcast</td>
                 <td>Fall 2019</td>
                 <td>Denied</td>
+                <td><i class="fas fa-file-invoice"></i></td>
+
+
             </tr>
             <tr>
                 <td>PNC Bank</td>
                 <td>Spring 2020</td>
                 <td>Approved</td>
+                <td><i class="fas fa-file-invoice"></i></td>
+
             </tr>
         </tbody>
     </table>
-            <hr style="width:75%;margin:auto;margin-top:20px;">
             <br>
             <button type="button" class="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px">Start Application</button>
-            <button type="button" class="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px">Review Application</button>
         </div>
         </div>
 </asp:Content>
