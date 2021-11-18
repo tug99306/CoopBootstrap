@@ -29,8 +29,8 @@
     <form runat="server">
         <div class="employer-div" style="border-block-color: grey;">
 
-            <b>Student Term:</b>
-            <asp:Label ID="lblStudentTerm" runat="server" text="Spring 2022"></asp:Label><br />
+            <b style="font-size:13px">Student Term:</b>
+            <asp:Label ID="lblStudentTerm" runat="server" text="Spring 2022" style="font-size:13px"></asp:Label><br />
             <hr style="border: 1px outset black;">
             <br />
             <div class="employer-form">
@@ -85,11 +85,10 @@
                     <br />
                     <asp:TextBox ID="txtComments" runat="server" MaxLength="350" Height="194px" TextMode="MultiLine" Width="523px"></asp:TextBox>
                 </h4>
-            </center>
-            <div style="float:right;">
-            <asp:Button ID="btnDeny" runat="server" Text="Deny"/>
-            <asp:Button ID="btnAccept" runat="server" Text="Accept"/>
-                </div>
+           
+            <button type="button" class="btn btn-danger" style="font-size: 13px">Deny</button>
+            <button type="button" class="btn btn-primary" style="font-size: 13px">Accept</button>
+                            </center>
                 </div>
             
         </div>
