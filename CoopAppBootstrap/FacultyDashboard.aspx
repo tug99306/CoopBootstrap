@@ -72,13 +72,12 @@
                 <table class="table table-bordered table-hover rounded" style="width: 95%; margin: auto;">
                     <thead class="table-primary">
                         <tr>
-                            <th scope="col">TUID</th>
-                            <th scope="col">First Name</th>
-                            <th scope="col">Last Name</th>
-                            <th scope="col">Student Year</th>
-                            <th scope="col">Major</th>
-                            <th scope="col">Company</th>
-                            <th scope="col">Status</th>
+                            <th scope="col">TUID <i class="fa fa-fw fa-sort"></i></th>
+                            <th scope="col">First Name <i class="fa fa-fw fa-sort"></i></th>
+                            <th scope="col">Last Name <i class="fa fa-fw fa-sort"></i></th>
+                            <th scope="col">Major <i class="fa fa-fw fa-sort"></i></th>
+                            <th scope="col">Company <i class="fa fa-fw fa-sort"></i></th>
+                            <th scope="col">Status <i class="fa fa-fw fa-sort"></i></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -86,7 +85,6 @@
                             <td>91300000</td>
                             <td>John</td>
                             <td>Watson</td>
-                            <td>Freshman</td>
                             <td>IS&T</td>
                             <td>Comcast</td>
                             <td>Employer Review</td>
@@ -96,7 +94,6 @@
                             <td>91511111</td>
                             <td>Danielle</td>
                             <td>Pen</td>
-                            <td>Senior</td>
                             <td>Computer Science</td>
                             <td>CIGNA</td>
                             <td>Faculty Review I</td>
@@ -105,7 +102,6 @@
                             <td>91933333</td>
                             <td>Lauren</td>
                             <td>Jetson</td>
-                            <td>Junior</td>
                             <td>Data Science</td>
                             <td>Lockheed Martin</td>
                             <td>Faculty Review II</td>
