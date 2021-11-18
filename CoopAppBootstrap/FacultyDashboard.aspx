@@ -108,7 +108,7 @@
                     </tbody>
                 </table>
                 <br>
-                <button type="button" class="btn btn-primary" style="background-color: #9d2235; font-size: 13px">Select</button>
+                <asp:Button ID="btnSelect" runat="server" Text="Select" CssClass="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px" OnClick="btnSelect_Click1" />
             </div>
         </div>
     </form>

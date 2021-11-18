@@ -23,7 +23,7 @@
         </div>
     </nav>
 </div>
-    
+    <form runat="server">
     <div class="dash-container">
         <div id="logo">
         <img id="tulogo"src="pics/CST_TULogo.png">
@@ -74,8 +74,10 @@
         </tbody>
     </table>
             <br>
-            <button type="button" class="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px">Start Application</button>
+           
+            <asp:Button ID="btnStart" runat="server" Text="Start Application" CssClass="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px" OnClick="btnStart_Click" />
         </div>
         </div>
+        </form>
 </asp:Content>
 

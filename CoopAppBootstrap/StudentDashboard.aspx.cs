@@ -13,5 +13,10 @@ namespace CoopAppBootstrap
         {
 
         }
+
+        protected void btnStart_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("studentForm.aspx");
+        }
     }
 }

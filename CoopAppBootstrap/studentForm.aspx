@@ -22,7 +22,8 @@
                 <li><a href="Login.aspx">Sign out</a></li>
             </ul>
         </div>
-    </nav>
+    </nav> 
+    <form runat="server">
     <div id="boarder">
 
             <div class="dash-container">
@@ -35,7 +36,7 @@
         <div class="userName">
             TUID: tuz9102        Student Name: John Jacob
         </div>
-        <form>
+       
             <div id="leftSide">
 
                 <label for="term">Term:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
@@ -75,7 +76,7 @@
             </textarea>
             <br />
             <div id="submitButton">
-                <button type="button" class="btn btn-danger" id="submit">Submit</button>
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px" OnClick="btnSubmit_Click"  />
             </div>
 
         </form>
