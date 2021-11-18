@@ -28,6 +28,7 @@
     
     <form runat="server">
         <div class="employer-div" style="border-block-color: grey;">
+            <div class="dash">
             <div id="logo">
                 <img id="tulogo" src="pics/CST_TULogo.png">
             </div><br><br>
@@ -95,6 +96,7 @@
                 </div>
             
         </div>
+            </div>
         <br />
         <br />
         <br />
