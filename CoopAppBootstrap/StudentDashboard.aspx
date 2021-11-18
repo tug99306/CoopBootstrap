@@ -23,15 +23,14 @@
         </div>
     </nav>
 </div>
-    a
+    
     <div class="dash-container">
         <div id="logo">
         <img id="tulogo"src="pics/CST_TULogo.png">
 
         </div>
         <div class="dash">
-            <p style="margin:1rem auto;font-weight: 600;font-size: 18px;padding:12px;margin-bottom:0px">
-                Student Dashboard</p>
+            <h1 class="dashtitle">Student Dashboard</h1>
             <hr style="margin-top: 0px;">
             <p id="title1">Co-op Course Information</p>
             <p id="info">Co-op Course CIS 3281 for IST students that have completed the course CIS 2168<br>
