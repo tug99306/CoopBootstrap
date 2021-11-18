@@ -4,9 +4,21 @@
 
 
 .employer-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.employer-div {
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+#lblStudentTerm {
+    font-size: 35px;
 }

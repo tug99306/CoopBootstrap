@@ -3,7 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/employerStyle.css" rel="stylesheet" />
 
     <div class="m-4">
     <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;">
@@ -28,19 +27,20 @@
 </div>
     
     <form runat="server">
-        <div class="employer-form" style="border-block-color: grey;">
+        <div class="employer-div" style="border-block-color: grey;">
 
             <b>Student Term:</b>
             <asp:Label ID="lblStudentTerm" runat="server" text="Spring 2022"></asp:Label><br />
             <hr style="border: 1px outset black;">
             <br />
+            <div class="employer-form">
             <center>
                 <h4><label>Student Name:</label>
-                <asp:TextBox ID="txtStudentFirstName" runat="server" ReadOnly="true" BackColor="LightGray" value ="Nick"></asp:TextBox>
-                <asp:TextBox ID="txtStudentLastName" runat="server" ReadOnly="true" BackColor="LightGray" value ="Miller"></asp:TextBox>
+                <asp:Label ID="lblStudentFirstName" runat="server" text="Nick"></asp:Label>
+                <asp:Label ID="lblStudentLastName" runat="server" text="Miller"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <label> Student Email:</label>
-                <asp:TextBox ID="txtStudentEmail" runat="server" ReadOnly="true" BackColor="LightGray" value="tux12345@temple.edu"></asp:TextBox>
+                <asp:Label ID="lblStudentEmail" runat="server" text="tux12345@temple.edu"></asp:Label>
                     <br />
                     <br />
                     <hr style="border: 1px outset black;">
@@ -89,6 +89,7 @@
             <div style="float:right;">
             <asp:Button ID="btnDeny" runat="server" Text="Deny"/>
             <asp:Button ID="btnAccept" runat="server" Text="Accept"/>
+                </div>
                 </div>
             
         </div>
