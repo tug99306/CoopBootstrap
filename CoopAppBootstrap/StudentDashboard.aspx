@@ -23,6 +23,7 @@
         </div>
     </nav>
 </div>
+    a
     <div class="dash-container">
         <div id="logo">
         <img id="tulogo"src="pics/CST_TULogo.png">
@@ -44,7 +45,7 @@
                 <th scope="col">Application (Company Name) <i class="fa fa-fw fa-sort"></i></th>
                 <th scope="col">Term <i class="fa fa-fw fa-sort"></i></th>
                 <th scope="col">Status <i class="fa fa-fw fa-sort"></i></th>
-                <th scope="col">Review <i class="fas fa-file-invoice"></i></th>
+                <th scope="col">Review  <i class="fas fa-file-invoice"></i></th>
 
             </tr>
         </thead>

@@ -33,12 +33,13 @@
 
 
     <form id="form1" runat="server">
-
-        <div id="logo">
+                <div id="logo">
             <img id="tulogo" src="pics/CST_TULogo.png">
         </div>
+        <div class="dash-container">
 
 
+            <div class="dash">
         <h1>
             <center>Faculty Application Review</center>
         </h1>
@@ -127,11 +128,13 @@
 
 
 
-            <asp:Button ID="btnDeny" Text="Deny" runat="server" CssClass="btn-danger" Style="float: right;" Font-Size="15pt" Width="18%" OnClick="btnDeny_Click2" />
+            <asp:Button ID="btnDeny" Text="Deny" runat="server" CssClass="btn-danger" Style="float: right;" Font-Size="15pt" Width="18%" OnClick="btnDeny_Click2" />&nbsp;&nbsp;&nbsp;
 
             <asp:Button ID="btnAccept" Text="Accept" runat="server" CssClass="btn-primary" Style="float: right;" Font-Size="15pt" Width="18%" OnClick="btnAccept_Click1" />
 
         </div>
-
+                </div>
+</div>
     </form>
+
 </asp:Content>
