@@ -81,6 +81,7 @@
     <Content Include="pics\CST_TULogo.png" />
     <Content Include="pics\login_background.jfif" />
     <Content Include="pics\temple_logo.png" />
+    <Content Include="pics\temple_u_iconlogo.png" />
     <Content Include="StudentDashboard.aspx" />
     <Content Include="studentForm.aspx" />
     <Content Include="Web.config" />
