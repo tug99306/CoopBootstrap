@@ -2,8 +2,31 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="m-4"></div>
-    <div class="dash">
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="opacity: 0.8;">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="/pics/temple_logo.png" height="40" alt="Temple University">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                            <a href="FacultyDashboard.aspx" class="nav-item nav-link">Dashboard</a>
+                            <a href="FacultyTextRevision.aspx" class="nav-item active nav-link">Text Revision</a>
+                            <a href="AdminPage.aspx" class="nav-item nav-link">Admin Page</a>
+                            <a href="EmailEdit.aspx" class="nav-item nav-link">Notification Settings</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+
+                        <p class="nav-item nav-link" style="margin-left: 10px; color: black;">John Doe</p>
+                        <a href="Login.aspx" class="nav-item nav-link" style="margin-left: 10px">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>    <div class="dash">
         <div class="container align-content-center m-auto">
             <div id="logo">
                 <img id="tulogo" src="pics/CST_TULogo.png">

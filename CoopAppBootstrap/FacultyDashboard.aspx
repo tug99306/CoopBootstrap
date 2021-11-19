@@ -17,8 +17,10 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
-                            <a href="FacultyDashboard.aspx" class="nav-item nav-link">Dashboard</a>
+                            <a href="FacultyDashboard.aspx" class="nav-item active nav-link">Dashboard</a>
+                            <a href="FacultyTextRevision.aspx" class="nav-item nav-link">Text Revision</a>
                             <a href="AdminPage.aspx" class="nav-item nav-link">Admin Page</a>
+                            <a href="EmailEdit.aspx" class="nav-item nav-link">Notification Settings</a>
                         </div>
                         <div class="navbar-nav ms-auto">
                             <p class="nav-item nav-link" style="margin-left: 10px; color: black;">John Doe</p>
