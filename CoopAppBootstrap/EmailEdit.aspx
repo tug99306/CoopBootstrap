@@ -18,7 +18,7 @@
                             <a href="AdminPage.aspx" class="nav-item nav-link">Admin Page</a>
                             <a href="EmailEdit.aspx" class="nav-item active nav-link">Notification Settings</a>                    </div>
                     <div class="navbar-nav ms-auto">
-                        <p class="nav-item nav-link" style="margin-left: 10px; color: black;">John Doe</p>
+                            <p class="nav-item nav-link" style="margin-left: 10px; color: black;font-weight:900;">John Doe</p>
                         <a href="Login.aspx" class="nav-item nav-link" style="margin-left: 10px">Log Out</a>
                     </div>
                 </div>
