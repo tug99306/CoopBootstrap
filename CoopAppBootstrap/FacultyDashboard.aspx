@@ -40,10 +40,6 @@
                 <p id="info">
                     Term:&nbsp;&nbsp;
                 <asp:DropDownList ID="DropDownList1" runat="server">
-                    <asp:ListItem>Spring 2016</asp:ListItem>
-                    <asp:ListItem>Fall 2016</asp:ListItem>
-                    <asp:ListItem>Spring 2017</asp:ListItem>
-                    <asp:ListItem>Fall 2017</asp:ListItem>
                     <asp:ListItem>Spring 2018</asp:ListItem>
                     <asp:ListItem>Fall 2018</asp:ListItem>
                     <asp:ListItem>Spring 2019</asp:ListItem>
@@ -54,14 +50,11 @@
                     <asp:ListItem>Fall 2021</asp:ListItem>
                     <asp:ListItem>Spring 2022</asp:ListItem>
                     <asp:ListItem>Fall 2022</asp:ListItem>
-                </asp:DropDownList>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                First Name:&nbsp;&nbsp;
+                </asp:DropDownList>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First Name:&nbsp;&nbsp;
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Last Name:&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name:&nbsp;&nbsp;
                 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    <br>
-                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     TUID:&nbsp;&nbsp;
                 <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
 
@@ -84,7 +77,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="fas fa-file-invoice"></i></td>
+                            <td><a href="FacultyReview.aspx"><i class="fas fa-file-invoice"></i></a></td>
                             <td>91300000</td>
                             <td>John</td>
                             <td>Watson</td>
@@ -95,7 +88,7 @@
 
                         </tr>
                         <tr>
-                            <td><i class="fas fa-file-invoice"></i></td>
+                            <td><a href="FacultyReview.aspx"><i class="fas fa-file-invoice"></i></a></td>
                             <td>91511111</td>
                             <td>Danielle</td>
                             <td>Pen</td>
@@ -105,7 +98,7 @@
                             <td>Faculty Review I</td>
                         </tr>
                         <tr>
-                            <td><i class="fas fa-file-invoice"></i></td>
+                            <td><a href="FacultyReview.aspx"><i class="fas fa-file-invoice"></i></a></td>
                             <td>91933333</td>
                             <td>Lauren</td>
                             <td>Jetson</td>
