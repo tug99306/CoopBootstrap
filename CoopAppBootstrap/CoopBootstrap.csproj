@@ -74,6 +74,7 @@
     <Content Include="css\studentdashboard.css" />
     <Content Include="css\studentStyle.css" />
     <Content Include="css\style.css" />
+    <Content Include="EmailEdit.aspx" />
     <Content Include="Employer.aspx" />
     <Content Include="FacultyDashboard.aspx" />
     <Content Include="FacultyReview.aspx" />
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="AdminPage.aspx.designer.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmailEdit.aspx.cs">
+      <DependentUpon>EmailEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmailEdit.aspx.designer.cs">
+      <DependentUpon>EmailEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Employer.aspx.cs">
       <DependentUpon>Employer.aspx</DependentUpon>
