@@ -85,6 +85,7 @@
     <Content Include="StudentDashboard.aspx" />
     <Content Include="studentForm.aspx" />
     <Content Include="Web.config" />
+    <Content Include="FacultyTextRevision.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminPage.aspx.cs">
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="studentForm.aspx.designer.cs">
       <DependentUpon>studentForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyTextRevision.aspx.cs">
+      <DependentUpon>FacultyTextRevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyTextRevision.aspx.designer.cs">
+      <DependentUpon>FacultyTextRevision.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
