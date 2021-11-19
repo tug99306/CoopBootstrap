@@ -53,14 +53,14 @@
                 <td>Comcast</td>
                 <td>Spring 2018</td>
                 <td>Denied</td>
-                <td><i class="fas fa-file-invoice"></i></td>
+                <td><a href="studentForm.aspx"><i class="fas fa-file-invoice"></i></a></td>
 
             </tr>
             <tr>
                 <td>Comcast</td>
                 <td>Fall 2019</td>
                 <td>Denied</td>
-                <td><i class="fas fa-file-invoice"></i></td>
+                <td><a href="studentForm.aspx"><i class="fas fa-file-invoice"></i></a></td>
 
 
             </tr>
@@ -68,7 +68,7 @@
                 <td>PNC Bank</td>
                 <td>Spring 2020</td>
                 <td>Approved</td>
-                <td><i class="fas fa-file-invoice"></i></td>
+                <td><a href="studentForm.aspx"><i class="fas fa-file-invoice"></i></a></td>
 
             </tr>
         </tbody>
