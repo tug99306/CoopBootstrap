@@ -72,6 +72,7 @@
                 <table class="table table-bordered table-hover rounded" style="width: 95%; margin: auto;">
                     <thead class="table-primary">
                         <tr>
+                            <th scope="col">Select </th>
                             <th scope="col">TUID <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">First Name <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">Last Name <i class="fa fa-fw fa-sort"></i></th>
@@ -83,6 +84,7 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <td><i class="fas fa-file-invoice"></i></td>
                             <td>91300000</td>
                             <td>John</td>
                             <td>Watson</td>
@@ -93,6 +95,7 @@
 
                         </tr>
                         <tr>
+                            <td><i class="fas fa-file-invoice"></i></td>
                             <td>91511111</td>
                             <td>Danielle</td>
                             <td>Pen</td>
@@ -102,6 +105,7 @@
                             <td>Faculty Review I</td>
                         </tr>
                         <tr>
+                            <td><i class="fas fa-file-invoice"></i></td>
                             <td>91933333</td>
                             <td>Lauren</td>
                             <td>Jetson</td>
@@ -112,8 +116,6 @@
                         </tr>
                     </tbody>
                 </table>
-                <br>
-                <asp:Button ID="btnSelect" runat="server" Text="Select" CssClass="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px" OnClick="btnSelect_Click1" />
             </div>
         </div>
     </form>
