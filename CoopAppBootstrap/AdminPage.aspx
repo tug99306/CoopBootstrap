@@ -29,12 +29,10 @@
             <img id="tulogo" src="pics/CST_TULogo.png">
         </div>
         <div class="dash">
-            <p style="margin: 1rem auto; font-weight: 600; font-size: 18px; padding: 12px; margin-bottom: 0px">
-                Admin Page
-            </p>
+            <h1 class="dashtitle">Administrative Roles</h1>
             <hr style="margin-top: 0px;">
             <p id="info" style="text-align: center">
-                You may add/delete faculty members from the system on this page.
+                You may add/inactivate faculty members from the system on this page.
             </p>
             <p id="title1" style="text-align: left; margin-left: 15px">Faculty Members</p>
 
@@ -45,7 +43,7 @@
                         <th scope="col">First Name <i class="fa fa-fw fa-sort"></i></th>
                         <th scope="col">Last Name <i class="fa fa-fw fa-sort"></i></th>
                         <th scope="col">Advisor Type <i class="fa fa-fw fa-sort"></i></th>
-                        <th scope="col">Delete </th>
+                        <th scope="col">Inactivate </th>
                     </tr>
                 </thead>
                 <tbody>
