@@ -10,16 +10,7 @@
             <a href="#" class="navbar-brand">
                 <img src="/pics/temple_logo.png" height="40" alt="Temple University">
             </a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-               
-                <div class="navbar-nav ms-auto">
-                    <p class="nav-item nav-link"style="margin-left:10px;color:black;">John Doe</p>
-                    <a href="Login.aspx" class="nav-item nav-link"style="margin-left:10px">Log Out</a>
-                </div>
-            </div>
+
         </div>
     </nav>
 </div>
@@ -29,11 +20,10 @@
             <div id="logo">
                 <img id="tulogo" src="pics/CST_TULogo.png">
             </div>
-        <div class="employer-div" style="border-block-color: grey;">
             <div class="dash">
-            <br><br>
-
-            <b style="font-size:13px">Academic Term:</b>
+            <h1 class="dashtitle">Employer Verification</h1>
+            <br>
+            <b style="font-size:13px; text-align:left">Academic Term:</b>
             <asp:Label ID="lblStudentTerm" runat="server" text="Spring 2022" style="font-size:13px"></asp:Label><br />
             <hr style="border: 1px outset black;">
             <br />
@@ -89,18 +79,17 @@
                     <br />
                     <asp:TextBox ID="txtComments" runat="server" MaxLength="350" Height="194px" TextMode="MultiLine" Width="523px"></asp:TextBox>
                 </h4>
-           
+                <br>
             <button type="button" class="btn btn-danger" style="font-size: 13px">Deny</button>
-            <button type="button" class="btn btn-primary" style="font-size: 13px">Accept</button>
-                            </center>
-                </div>
+            <button type="button" class="btn btn-primary" style="font-size: 13px">Approve</button>
+            </center>
+            </div>
             
         </div>
             </div>
         <br />
         <br />
         <br />
-            </div>
     </form>            
 
 </asp:Content>
