@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="m-4">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;font-size:12px;">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">
                 <img src="/pics/temple_logo.png" height="40" alt="Temple University">
@@ -13,7 +13,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="StudentDashboard.aspx" class="nav-item nav-link">Dashboard</a>
+                    <a href="StudentDashboard.aspx" class="nav-item active nav-link">Dashboard</a>
                 </div>
                 <div class="navbar-nav ms-auto">
                     <p class="nav-item nav-link"style="margin-left:10px;color:black;">John Doe</p>
