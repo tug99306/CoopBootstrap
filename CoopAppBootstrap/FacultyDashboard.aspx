@@ -75,6 +75,7 @@
                             <th scope="col">TUID <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">First Name <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">Last Name <i class="fa fa-fw fa-sort"></i></th>
+                            <th scope="col">Term <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">Major <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">Company <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">Status <i class="fa fa-fw fa-sort"></i></th>
@@ -85,6 +86,7 @@
                             <td>91300000</td>
                             <td>John</td>
                             <td>Watson</td>
+                            <td>Spring 2018</td>
                             <td>IS&T</td>
                             <td>Comcast</td>
                             <td>Employer Review</td>
@@ -94,6 +96,7 @@
                             <td>91511111</td>
                             <td>Danielle</td>
                             <td>Pen</td>
+                            <td>Fall 2019</td>
                             <td>Computer Science</td>
                             <td>CIGNA</td>
                             <td>Faculty Review I</td>
@@ -102,6 +105,7 @@
                             <td>91933333</td>
                             <td>Lauren</td>
                             <td>Jetson</td>
+                            <td>Fall 2020</td>
                             <td>Data Science</td>
                             <td>Lockheed Martin</td>
                             <td>Faculty Review II</td>
