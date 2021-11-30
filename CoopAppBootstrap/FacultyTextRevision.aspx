@@ -33,6 +33,7 @@
             <div id="logo">
                 <img id="tulogo" src="pics/CST_TULogo.png">
             </div>
+        <br><br>
             <div class="row h-100">
                 <div class="row px-3 my-auto" style="text-align:center;">
                     <div class="col px-3">
@@ -74,6 +75,10 @@
                     </div>
                 </div>
             </div>
+                <hr style="width: 80%; margin: auto; margin-top: 20px;">
+        <br>
+
+
         </div>
     </form>
 </asp:Content>
