@@ -13,5 +13,10 @@ namespace CoopAppBootstrap
         {
 
         }
+
+        protected void ddlTextRevision_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblTextRevision.Text = ddlTextRevision.Text;
+        }
     }
 }

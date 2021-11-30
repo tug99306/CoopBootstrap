@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <form id="form1" runat="server">
     <div class="m-4">
     <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;font-size:12px;">
             <div class="container-fluid">
@@ -26,37 +27,40 @@
                 </div>
             </div>
         </nav>
-    </div>    <div class="dash">
-        <div class="container align-content-center m-auto">
+    </div>    
+    
+    <div class="dash-container">
             <div id="logo">
                 <img id="tulogo" src="pics/CST_TULogo.png">
             </div>
             <div class="row h-100">
                 <div class="row px-3 my-auto" style="text-align:center;">
                     <div class="col px-3">
-                        <h1 class="h1">
-                            Employer Review Form
+                        <h1 class="h1 dashtitle">
+                            Faculty Text Revision
                         </h1>
                     </div>
                     <div class="col px-3">
-                        <h1 class="h1">
-                            Co-op Course Information
+                        <h1 class="h1 dashtitle">
+                            <asp:Label ID="lblTextRevision" runat="server">Employer Instructions</asp:Label>
                         </h1>
                     </div>
                 </div>
                 <div class="row px-3 my-auto" style="text-align:center;">
                     <div class="col px-3">
                         <h1 class="h3">
-                            Please make sure all fields are filled out, and are completed by MM/YYYY.
+                            Please select a field you would like to edit in the application.</h1>
+                        <h1 class="h3">
+                            &nbsp;<asp:DropDownList ID="ddlTextRevision" runat="server" Font-Size="15px" OnSelectedIndexChanged="ddlTextRevision_SelectedIndexChanged">
+                                <asp:ListItem Value="EmployerIns">Employer Instructions</asp:ListItem>
+                                <asp:ListItem></asp:ListItem>
+                            </asp:DropDownList>
                         </h1>
                     </div>
                     <div class="col px-3">
-                        <form>
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Course Description Here</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10">Co-op Course CIS 3181 for IST stuents that have completed the course CIS2168.
-
-Co-op Course CIS 3381 for CS and Math CS students that have completed the course CIS 2168.
+                                <label for="exampleFormControlTextarea1">Insert New Instructions Here</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"> Please Make sure all fields are filled out with the correct information and is completed by (date filled by admin)
                                 </textarea>
                                 <div class="row m-3">
                                     <div class="col">
@@ -67,10 +71,9 @@ Co-op Course CIS 3381 for CS and Math CS students that have completed the course
                                     </div>
                                 </div>
                             </div>
-                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </asp:Content>
