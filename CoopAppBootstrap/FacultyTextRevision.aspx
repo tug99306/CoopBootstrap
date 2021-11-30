@@ -52,6 +52,7 @@
                         <h1 class="h3">
                             Please select a field you would like to edit in the application.</h1>
                         <h1 class="h3">
+                            <br>
                             &nbsp;<asp:DropDownList ID="ddlTextRevision" runat="server" Font-Size="15px" OnSelectedIndexChanged="ddlTextRevision_SelectedIndexChanged">
                                 <asp:ListItem Value="EmployerIns">Employer Instructions</asp:ListItem>
                                 <asp:ListItem></asp:ListItem>
