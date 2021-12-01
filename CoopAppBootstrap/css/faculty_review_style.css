@@ -74,10 +74,13 @@ textarea {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #EEE;
     margin: 0;
-    width: 75%;
-    height: 130px;
+    width: 59%;
+    height: 124px;
     float: left;
     padding: 0px 15px;
+    position: relative;
+    top: -4px;
+    left: 182px;
 }
 
 .form-group {

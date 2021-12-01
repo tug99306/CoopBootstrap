@@ -56,12 +56,12 @@
                         </h1>
                         <br />
                         <div class="form-group">
-                            <h3><b>First Name:</b> John &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> Doe</h3>
+                            <h3><b>First Name:</b> John &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Last Name:</b> Watson</h3>
                         </div>
                         <br />
 
                         <div class="form-group">
-                            <h3><b>TUID:</b> 915XXXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                            <h3><b>TUID:</b> 91300000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                         </div>
                         <br />
                         <div class="form-group">
@@ -122,9 +122,9 @@
 
 
 
-                    <div class="form-group" style="align-content: center;">
+                    <div class="form-group" style="align-content: inherit">
                         <h3><b>Optional Comments:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                        <asp:TextBox ID="txtComments" runat="server" TextMode="MultiLine"></asp:TextBox>
+                        <asp:TextBox ID="txtComments" runat="server" TextMode="MultiLine" ></asp:TextBox>
 
                     </div>
                     <br />
@@ -134,9 +134,9 @@
 
 
                     <center>
-                        <asp:Button ID="btnDeny" Text="Deny" runat="server" CssClass="btn-danger" Style="float: inherit;" Font-Size="15pt" Width="18%" OnClick="btnDeny_Click2" />&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="btnDeny" Text="Deny" runat="server"  class="btn btn-primary" style="background-color: #9d2235; font-size: 13px; font-weight:600; float:right; margin-left: 20px;" Width="75px" OnClick="btnDeny_Click2" />&nbsp;&nbsp;&nbsp;
 
-            <asp:Button ID="btnApprove" Text="Approve" runat="server" CssClass="btn-primary" Style="float: inherit;" Font-Size="15pt" Width="18%" OnClick="btnAccept_Click1" />
+            <asp:Button ID="btnApprove" Text="Approve" runat="server"  class="btn btn-primary" style="background-color: #9d2235; font-size: 13px; font-weight:600; float:right; "  Width="75px" OnClick="btnAccept_Click1" />
                     </center>
                 </div>
             </div>

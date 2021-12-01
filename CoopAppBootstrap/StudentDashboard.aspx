@@ -46,6 +46,7 @@
                 <th scope="col">Term <i class="fa fa-fw fa-sort"></i></th>
                 <th scope="col">Status <i class="fa fa-fw fa-sort"></i></th>
                 <th scope="col">Review  <i class="fas fa-file-invoice"></i></th>
+                <th scope="col">Final Upload <i class="fas fa-upload"></i></></th>
 
             </tr>
         </thead>
@@ -70,6 +71,7 @@
                 <td>Spring 2020</td>
                 <td>Approved</td>
                 <td><a href="studentForm.aspx"><i class="fas fa-file-invoice"></i></a></td>
+                <td><a href=""><i class="fas fa-upload"></i></a></td>
 
             </tr>
         </tbody>
