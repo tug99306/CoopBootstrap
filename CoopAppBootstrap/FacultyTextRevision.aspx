@@ -15,7 +15,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                             <a href="FacultyDashboard.aspx" class="nav-item nav-link">Dashboard</a>
-                            <a href="FacultyTextRevision.aspx" class="nav-item active nav-link">Text Revision</a>
+                            <a href="FacultyTextRevision.aspx" class="nav-item active nav-link">Administrative Revision</a>
                             <a href="AdminPage.aspx" class="nav-item nav-link">Admin Page</a>
                             <a href="EmailEdit.aspx" class="nav-item nav-link">Notification Settings</a>
                     </div>
@@ -38,7 +38,7 @@
                 <div class="row px-3 my-auto" style="text-align:center;">
                     <div class="col px-3">
                         <h1 class="h1 dashtitle">
-                            Faculty Text Revision
+                            Administrative Instruction Revision
                         </h1>
                     </div>
                     <div class="col px-3">
