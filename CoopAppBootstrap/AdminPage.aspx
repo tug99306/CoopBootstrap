@@ -82,5 +82,10 @@
                 Add</button>
 
         </div>
+            <div class="dash">
+                <h1 class="dashtitle">Term Management</h1>
+
+
+           </div>
     </div>
 </asp:Content>
