@@ -1,6 +1,11 @@
 ﻿body {
 }
-
+.aspbutton {
+    background-color: #9d2235;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
 .dash-container {
     background-color: whitesmoke;
     width: 85%;
