@@ -7,10 +7,16 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="css/studentStyle.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title></title>
 </head>
 <body>
+
+
+
+
     <link href="css/faculty_review_style.css" rel="stylesheet" />
      <div class="m-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="opacity: 0.8;">
@@ -36,35 +42,33 @@
             </div>
         </nav>
     </div> 
-    <form runat="server">
     <div id="boarder">
 
-            <div class="dash-container">
+            <div class="dash-con">
         <div id="logo">
         <img id="tulogo"src="pics/CST_TULogo.png">
 
         </div>
-
-    <div id="mainForm">
-        <div class="userName">
-            TUID: tuz9102        Student Name: John Jacob
-        </div>
-       
+        <form runat="server">
             <div id="leftSide">
 
-                <label for="term">Term:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select a Term
-                </button>
-
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Fall 2020</a>
-                    <a class="dropdown-item" href="#">Spring 2021</a>
-                    <a class="dropdown-item" href="#">Summer 2021</a>
-                </div>
+                <label for="term">Term:&nbsp;&nbsp;&nbsp; </label>
+                <asp:DropDownList ID="ddlRole" runat="server" class="btn btn-danger dropdown-toggle">
+                    <asp:ListItem>Select a Season</asp:ListItem>
+                    <asp:ListItem>Fall</asp:ListItem>
+                    <asp:ListItem>Spring</asp:ListItem>
+                    <asp:ListItem>Summer</asp:ListItem>
+            </asp:DropDownList>
+                 <asp:DropDownList ID="DropDownList1" runat="server" class="btn btn-danger dropdown-toggle">
+                    <asp:ListItem>Select a Year</asp:ListItem>
+                    <asp:ListItem>2022</asp:ListItem>
+                    <asp:ListItem>2023</asp:ListItem>
+                    <asp:ListItem>2024</asp:ListItem>
+                    <asp:ListItem>2025</asp:ListItem>
+            </asp:DropDownList>
                 <br><br>
                 <label for="firstName">Employer First Name:&nbsp;&nbsp; </label>
-                <input type="text" id="firstName" name="firstName"> <br><br>
+                <input type="text" id="firstName" name="firstName" /> <br><br>
                 <label for="phoneNumber">Employer Phone #:&nbsp;&nbsp; </label>
                 <input type="text" id="phoneNumber" name="phoneNumber"> <br><br>
                 <label for="companyName">Company Name:&nbsp;&nbsp; </label>
@@ -72,7 +76,7 @@
             </div>
 
             <div id="rightSide">
-                <label for="major">Major:&nbsp;&nbsp; </label>
+                <label for="major">Major:&nbsp;&nbsp; </label><br>
                 <input type="text" id="major" name="major"><br><br>
                 <label for="lastName">Employer Last Name:&nbsp;&nbsp; </label>
                 <input type="text" id="lastName" name="lastName"><br><br>
@@ -82,19 +86,37 @@
                 <input type="text" id="hours" name="hours"><br><br>
             </div>
 
-            <div id="descriptionTitle">
-                    <label for="description"><br>Job Description:</label> <br />
+            <div id="descriptionFile">
+                    &nbsp;<label for="description file"><br>Job Description File:</label><br />
+            <input type="file" class="form-control-file" id="exampleFormControlFile1"><br />
             </div>
+            <br />
+            <div id="descriptionFile">
+                    &nbsp;<label for="description file"><br>Job Description:</label><br />
+            </div>
+            <br />
+            
+            <div id="descriptionBox">
             <textarea id="description" name="description" rows="8" cols="130">Add text here...
             </textarea>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <div id="submitButton">
-                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-primary btn-sm" style="background-color:#9d2235;font-size:11px" OnClick="btnSubmit_Click"  />
-            </div>
+                <button type="button" class="btn btn-danger" style="background-color: #9d2235; font-size: 13px; font-weight:600">Submit</button>
+                    </div>
 
         </form>
     </div>
-    </div>
+
 </body>
 </html>
 </asp:Content>

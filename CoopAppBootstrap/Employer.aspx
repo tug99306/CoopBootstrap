@@ -81,17 +81,28 @@
 
                     <label style="font-weight: bold; color: red; font-size: 30px">*</label>
                     <label style="font-size:20px">Job Description: </label>
-                    <br />
+                        <br />
+                            <label style="font-size:20px">Job Description Upload:  JobDesc.pdf</label>  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                        </svg>
+                    <br /><br />
+                    <label style="font-size:20px">Typed entry</label>
+<br />
                     <asp:TextBox ID="txtJobDesc" runat="server" MaxLength="350" Height="194px" TextMode="MultiLine" Width="523px" text="Checking and modifying methods" style="font-size:20px"></asp:TextBox>
-                    <br /><br /><br />
-
+                    <br />
+                    <div id="descriptionFile">
+                        &nbsp;<label for="description file" style="font-size:20px"><br>Job Description File Upload:</label><br />
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1"><br /><br />
+                    </div>
                     <label style="font-size:20px">Optional Comments:</label>
                     <br />
                     <asp:TextBox ID="txtComments" runat="server" MaxLength="350" Height="194px" TextMode="MultiLine" Width="523px" style="font-size:20px"></asp:TextBox>
                 </h4>
                 <br>
-            <button type="button" class="btn btn-danger" style="background-color: #9d2235; font-size: 18px; font-weight:600; float: right; margin-left: 10px">Deny</button>
-            <button type="button" class="btn btn-primary" style="background-color: #9d2235; font-size: 18px; font-weight:600; float: right">Approve</button>
+            <button type="button" class="btn btn-danger" style="font-size: 18px; font-weight:600; float: right; margin-left: 10px">Deny</button>
+            <button type="button" class="btn btn-primary" style="font-size: 18px; font-weight:600; float: right">Approve</button>
             </center>
             </div>
             

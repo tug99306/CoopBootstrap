@@ -4,49 +4,50 @@
 }
 
 
-/* id's */
-#mainForm {
-    text-align: center;
-    padding: 1%;
-    background-color: white;
-    margin: auto;
-    width: 95%;
-}
 
 #submitButton {
-    padding-left: 40%;
-    float: none;
+    float: right;
+    padding-right: 20%;
 }
 
-#boarder {
-    padding: 2%;
-}
 
 #descriptionTitle {
-    padding-right: 20%;
+    padding-right: 50%;
     font-size: 16px;
+}
+
+#descriptionBox {
+    padding-left: 14%;
 }
 
 #leftSide {
     float: left;
-    text-align: right;
-    padding-left: 20%;
+    padding-left: 17%;
     font-size: 16px;
 }
 
 #rightSide {
     float: right;
-    text-align: right;
-    padding-right: 20%;
+    padding-right: 17%;
     font-size: 16px;
 }
 
-.userName {
-    text-align: left;
-    font-size: 12px;
-    white-space: pre;
+#descriptionFile {
+    font-size: 15px;
+    width: 75%;
+    padding-left: 17%;
 }
 
+
+
+
+
+.dash-con {
+    background-color: whitesmoke;
+    width: 85%;
+    margin: 4rem auto;
+    padding-bottom: 15px;
+}
 
 
 @media (max-width: 1700px) {
