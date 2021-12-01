@@ -73,7 +73,7 @@
                         </div>
 
                         <div class="form-group">
-                            <h3><b>Term:</b> Spring 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                            <h3><b>Term:</b> Spring 20XX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                         </div>
                         <br />
 
