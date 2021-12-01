@@ -18,7 +18,7 @@
             <asp:TextBox ID="txtPassword" runat="server" required="required" CssClass="form-control" placeholder="Password" TextMode="Password"> </asp:TextBox>
         </div>
         <div class="form-group">
-            <asp:Button ID="btnLogin" runat="server" Text="Log In" class="btn btn-danger btn-block" OnClick="btnLogin_Click"/>
+            <asp:Button ID="btnLogin" runat="server" Text="Log In" class="btn btn-danger" style="background-color: #9d2235;" OnClick="btnLogin_Click" Width="83px"  />
         </div>
         <div class="clearfix">
             
