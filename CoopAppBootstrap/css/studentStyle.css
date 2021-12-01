@@ -7,7 +7,7 @@
 
 #submitButton {
     float: right;
-    padding-right: 20%;
+    padding-right: 27%;
 }
 
 
@@ -17,25 +17,25 @@
 }
 
 #descriptionBox {
-    padding-left: 14%;
+    padding-left: 9%;
 }
 
 #leftSide {
     float: left;
-    padding-left: 17%;
+    padding-left: 23%;
     font-size: 16px;
 }
 
 #rightSide {
     float: right;
-    padding-right: 17%;
+    padding-right: 23%;
     font-size: 16px;
 }
 
 #descriptionFile {
     font-size: 15px;
-    width: 75%;
-    padding-left: 17%;
+    width: 70%;
+    padding-left: 23%;
 }
 
 
