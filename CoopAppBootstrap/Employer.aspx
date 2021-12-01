@@ -101,8 +101,9 @@
                     <asp:TextBox ID="txtComments" runat="server" MaxLength="350" Height="194px" TextMode="MultiLine" Width="523px" style="font-size:20px"></asp:TextBox>
                 </h4>
                 <br>
-            <button type="button" class="btn btn-danger" style="font-size: 18px; font-weight:600; float: right; margin-left: 10px">Deny</button>
-            <button type="button" class="btn btn-primary" style="font-size: 18px; font-weight:600; float: right">Approve</button>
+            <button type="button" class="btn btn-primary" style="font-size: 18px; font-weight:600; float: right; margin-left: 10px">Approve</button>
+            <button type="button" class="btn btn-danger" style="font-size: 18px; font-weight:600; float: right">Deny</button>
+            
             </center>
             </div>
             
