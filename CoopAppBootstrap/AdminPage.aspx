@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <form id="form1" runat="server">
         <div class="m-4">
     <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;font-size:12px;">
                 <div class="container-fluid">
@@ -15,7 +16,7 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
                             <a href="FacultyDashboard.aspx" class="nav-item nav-link">Dashboard</a>
-                            <a href="FacultyTextRevision.aspx" class="nav-item nav-link">Text Revision</a>
+                            <a href="FacultyTextRevision.aspx" class="nav-item nav-link">Administrastive Revision</a>
                             <a href="AdminPage.aspx" class="nav-item active nav-link">Admin Page</a>
                             <a href="EmailEdit.aspx" class="nav-item nav-link">Notification Settings</a>
                         </div>
@@ -82,10 +83,44 @@
                 Add</button>
 
         </div>
+                    <hr style="width: 90%; margin: auto; margin-top: 20px; margin-bottom: 20px">
+
             <div class="dash">
                 <h1 class="dashtitle">Term Management</h1>
+                <p id="info" style="text-align: center">
+                You may add/inactivate terms from the system on this page.
+                </p>
+                <p id="title1" style="text-align: left; margin-left: 15px">Current Terms</p>
+                <div style="text-align: left; margin-left: 25px; font-size: 12px">Year:&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:DropDownList ID="ddlYear" runat="server">
+                        <asp:ListItem>Select a year</asp:ListItem>
+                        <asp:ListItem>2016</asp:ListItem>
+                        <asp:ListItem>2017</asp:ListItem>
+                        <asp:ListItem>2018</asp:ListItem>
+                        <asp:ListItem>2019</asp:ListItem>
+                    </asp:DropDownList>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary btn-sm" style="background-color: #9d2235; font-size: 13px; font-weight:600">
+                Inactivate</button>                
+                </div>
+            <hr style="width: 85%; margin: auto; margin-top: 20px; margin-bottom: 20px">
+            <p id="title1" style="text-align: left; margin-left: 15px">Adding Terms</p>
+            <div style="text-align: left; margin-left: 25px; font-size: 12px">Semester: &nbsp;&nbsp;
+            <asp:DropDownList ID="ddlSemester" runat="server">
+                <asp:ListItem>Select a Semester</asp:ListItem>
+                <asp:ListItem>Spring</asp:ListItem>
+                <asp:ListItem>Summer</asp:ListItem>
+                <asp:ListItem>Fall</asp:ListItem>
+                </asp:DropDownList>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Year:&nbsp;&nbsp;
+                <asp:TextBox ID="txtYearAdd" runat="server"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary btn-sm" style="background-color: #9d2235; font-size: 13px; font-weight:600">
+                Add</button> 
+
 
 
            </div>
     </div>
+        </form>
 </asp:Content>

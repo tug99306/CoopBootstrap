@@ -66,10 +66,7 @@
                                 </textarea>
                                 <div class="row m-3">
                                     <div class="col">
-                                        <button type="button" class="btn btn-secondary">Reset to default</button>
-                                    </div>
-                                    <div class="col">
-                                        <button type="button" class="btn btn-primary">Apply Changes</button>
+                                        <button type="button" class="btn btn-primary" style="background-color: #9d2235; font-size: 13px; font-weight:600">Apply Changes</button>
                                     </div>
                                 </div>
                             </div>
