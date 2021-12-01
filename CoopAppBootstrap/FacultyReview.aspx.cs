@@ -14,20 +14,7 @@ namespace CoopAppBootstrap
 
         }
 
-        protected void btnDeny_Click(object sender, EventArgs e)
-        {
-            //
-        }
-
-        protected void btnAccept_Click(object sender, EventArgs e)
-        {
-            //
-        }
-
-        protected void btnDeny_Click1(object sender, EventArgs e)
-        {
-
-        }
+   
 
         protected void btnDeny_Click2(object sender, EventArgs e)
         {
