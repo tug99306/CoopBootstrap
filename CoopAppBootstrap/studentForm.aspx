@@ -50,7 +50,7 @@
                 <br />
                  <label style="font-size:20px">Major:</label>
                    
-                <asp:TextBox ID="TextBox2" runat="server" style="font-size:20px"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" Text="IS&T" style="font-size:20px"></asp:TextBox>
                 <br />
             <hr style="border: 1px outset black;">
             <br />
