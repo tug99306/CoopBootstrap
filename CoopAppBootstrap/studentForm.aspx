@@ -87,7 +87,7 @@
                     <asp:TextBox ID="txtComments" runat="server" MaxLength="350" Height="194px" TextMode="MultiLine" Width="523px" style="font-size:20px"></asp:TextBox>
                 
                 <br>
-          <asp:Button ID="btnSubmit" runat="server" Text="Submit"  class="btn btn-primary" style="font-size: 18px; font-weight:600; float: right; margin-left: 10px"  />
+          <asp:Button ID="btnSubmit" runat="server" Text="Submit"  class="btn btn-danger" style=" background-color: #9d2235; font-size: 18px; font-weight:600; float: right; margin-left: 10px"  />
             
             </center>
             </div>
