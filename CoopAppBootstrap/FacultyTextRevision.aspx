@@ -76,8 +76,32 @@
             </div>
                 <hr style="width: 80%; margin: auto; margin-top: 20px;">
         <br>
+         <div class="dash">
+                <h1 class="dashtitle">Email Revision</h1>
+                <p id="info" style="text-align: center">
+                You may change the email templates here.
+                </p>
+                <p id="title1" style="text-align: left; margin-left: 15px">Current Email Templates</p>
+                <div style="text-align: left; margin-left: 25px; font-size: 12px">Email:&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:DropDownList ID="DropDownList1" runat="server" Font-Size="15px" OnSelectedIndexChanged="ddlTextRevision_SelectedIndexChanged">
+                                <asp:ListItem Value="Employer">Employer Email</asp:ListItem>
+                                <asp:ListItem></asp:ListItem>
+                            </asp:DropDownList>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br/><br/>
+                    <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Insert New Email Template</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea2" rows="10"> Please Make sure all fields are filled out with the correct information and is completed by (date filled by admin)
+                                </textarea>
+                                <div class="row m-3">
+                                    <center><div class="col">
+                                        <button type="button" class="btn btn-primary" style="background-color: #9d2235; font-size: 13px; font-weight:600">Apply Changes</button>
+                                    </div></center>
+                                </div>
+                            </div>
+              
+                </div>
+                     </div>
 
-
-        </div>
     </form>
 </asp:Content>
