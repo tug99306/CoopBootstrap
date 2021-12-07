@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <div class="m-4">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"style="opacity: 0.8;font-size:12px;">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">
                 <img src="/pics/temple_logo.png" height="40" alt="Temple University">
             </a>
-
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="StudentDashboard.aspx" class="nav-item active nav-link">Dashboard</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                            <p class="nav-item nav-link" style="margin-left: 10px; color: black;font-weight:900;">John Doe</p>
+                    <a href="Login.aspx" class="nav-item nav-link"style="margin-left:10px">Log Out</a>
+                </div>
+            </div>
         </div>
     </nav>
 </div>
@@ -47,23 +58,23 @@
                     <br />
                     <br />
 
-                   <label style="font-weight: bold; color: red; font-size: 30px">*</label>
+                   
                    <label style="font-size:20px"> Employer Name:</label>
                    
                 <asp:TextBox ID="txtEmployerFName" runat="server"  placeholder="First Name" value="Jimmy" style="font-size:20px"></asp:TextBox>&nbsp;
                 <asp:TextBox ID="txtEmployerLName" runat="server"  placeholder="Last Name" value="John" style="font-size:20px"></asp:TextBox>
                    <br /><br /><br />
 
-                    <label style="font-weight: bold; color: red; font-size: 30px">*</label>
+                  
                     <label style="font-size:20px"> Employer Phone Number:</label>
                 <asp:TextBox ID="txtEmployerPhone" runat="server" value="215-123-4567" style="font-size:20px"></asp:TextBox>
                     <br /><br /><br />
 
-                     <label style="font-weight: bold; color: red; font-size: 30px">*</label>
+                   
                      <label style="font-size:20px">Employer Email:</label>
                 <asp:TextBox ID="txtEmployerEmail" runat="server" value="JimmyJohn@email.com" style="font-size:20px"></asp:TextBox>
                     
-                     <label style="font-weight: bold; color: red; font-size: 30px">*</label>
+                     
                      <label style="font-size:20px">Company Name:</label>
                 <asp:TextBox ID="txtCompanyName" runat="server" value="Enterprise" style="font-size:20px"></asp:TextBox>
                     <br /><br /><br />
