@@ -38,13 +38,13 @@
             <div class="row h-100">
                 <div class="row px-3 my-auto" style="text-align:center;">
                     <div class="col px-3">
-                        <h1 class="h1 dashtitle">
+                        <h1 class="dashtitle">
                             Administrative Instruction Revision
                         </h1>
                     </div>
                     <div class="col px-3">
-                        <h1 class="h1 dashtitle">
-                            <asp:Label ID="lblTextRevision" runat="server">Employer Instructions</asp:Label>
+                        <h1 class="dashtitle">
+                            <asp:Label ID="lblTextRevision" runat="server" >Employer Instructions</asp:Label>
                         </h1>
                     </div>
                 </div>
