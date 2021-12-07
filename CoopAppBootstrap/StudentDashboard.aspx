@@ -56,7 +56,7 @@
                 <td>Spring 2018</td>
                 <td>Denied</td>
                 <td><a href="studentForm.aspx"><i class="fas fa-file-invoice"></i></a></td>
-                <td><a href=""><i class="fas fa-ban"></i></a></td>
+                <td><i class="fas fa-ban"></i></td>
 
             </tr>
             <tr>
@@ -64,7 +64,7 @@
                 <td>Fall 2019</td>
                 <td>Denied</td>
                 <td><a href="studentForm.aspx"><i class="fas fa-file-invoice"></i></a></td>
-                <td><a href=""><i class="fas fa-ban"></i></a></td>
+                <td><i class="fas fa-ban"></i></td>
 
 
 
