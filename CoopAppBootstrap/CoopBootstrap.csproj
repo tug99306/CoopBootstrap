@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminPage.aspx" />
+    <Content Include="css\facultytextrevision.css" />
     <Content Include="css\employerStyle.css" />
     <Content Include="css\facultydashboard.css" />
     <Content Include="css\faculty_review_style.css" />
