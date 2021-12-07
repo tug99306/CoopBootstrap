@@ -41,18 +41,17 @@
                 <p id="title1" style="text-align: left; margin-left: 15px">Search Applications</p>
                 <p id="info">
                     Term:&nbsp;&nbsp;
-                <asp:DropDownList ID="DropDownList1" runat="server">
-                    <asp:ListItem>Spring 2018</asp:ListItem>
-                    <asp:ListItem>Fall 2018</asp:ListItem>
-                    <asp:ListItem>Spring 2019</asp:ListItem>
-                    <asp:ListItem>Fall 2019</asp:ListItem>
-                    <asp:ListItem>Spring 2020</asp:ListItem>
-                    <asp:ListItem>Fall 2020</asp:ListItem>
-                    <asp:ListItem>Spring 2021</asp:ListItem>
-                    <asp:ListItem>Fall 2021</asp:ListItem>
-                    <asp:ListItem>Spring 2022</asp:ListItem>
-                    <asp:ListItem>Fall 2022</asp:ListItem>
-                </asp:DropDownList>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First Name:&nbsp;&nbsp;
+                <asp:DropDownList ID="ddlSemester" runat="server">
+                    <asp:ListItem>Fall</asp:ListItem>
+                    <asp:ListItem>Spring</asp:ListItem>
+                    <asp:ListItem>Summer</asp:ListItem>
+                </asp:DropDownList>&nbsp;&nbsp;&nbsp;<asp:DropDownList ID="DropDownList1" runat="server">
+                        <asp:ListItem>2022</asp:ListItem>
+                        <asp:ListItem>2021</asp:ListItem>
+                        <asp:ListItem>2020</asp:ListItem>
+                        <asp:ListItem>2019</asp:ListItem>
+                    </asp:DropDownList>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First Name:&nbsp;&nbsp;
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name:&nbsp;&nbsp;
                 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
