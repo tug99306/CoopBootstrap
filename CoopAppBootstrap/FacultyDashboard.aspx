@@ -74,6 +74,7 @@
                             <th scope="col">Major <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">Company <i class="fa fa-fw fa-sort"></i></th>
                             <th scope="col">Status <i class="fa fa-fw fa-sort"></i></th>
+                            <th scope="col">Final Review <i class="fa fa-fw fa-sort"></i></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -86,6 +87,7 @@
                             <td>IS&T</td>
                             <td>Comcast</td>
                             <td>Employer Review</td>
+                            <td><i class="fas fa-ban"></i></td>
 
                         </tr>
                         <tr>
@@ -97,6 +99,7 @@
                             <td>Computer Science</td>
                             <td>CIGNA</td>
                             <td>Faculty Review I</td>
+                            <td><i class="fas fa-ban"></i></td>
                         </tr>
                         <tr>
                             <td><a href="FacultyReview.aspx"><i class="fas fa-file-invoice"></i></a></td>
@@ -107,6 +110,28 @@
                             <td>Data Science</td>
                             <td>Lockheed Martin</td>
                             <td>Faculty Review II</td>
+                            <td><i class="fas fa-ban"></i></td>
+                        </tr>                        <tr>
+                            <td><a href="FacultyReview.aspx"><i class="fas fa-file-invoice"></i></a></td>
+                            <td>91545873</td>
+                            <td>Paul</td>
+                            <td>Peter</td>
+                            <td>Spring 2020</td>
+                            <td>IS&T</td>
+                            <td>Protiviti</td>
+                            <td>Approved</td>
+                            <td><a href=#><i class="fas fa-download"></i></a</td>
+                        </tr>                        
+                        <tr>
+                            <td><a href="FacultyReview.aspx"><i class="fas fa-file-invoice"></i></a></td>
+                            <td>91589873</td>
+                            <td>Raven</td>
+                            <td>Law</td>
+                            <td>Fall 2021</td>
+                            <td>Computer Science</td>
+                            <td>Protiviti</td>
+                            <td>Approved</td>
+                            <td><i class="fas fa-ban"></i></td>
                         </tr>
                     </tbody>
                 </table>
